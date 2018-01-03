@@ -1,1 +1,36 @@
-这是我的页面
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"content="width=device-width,height=device-height"/>
+    <title>Title</title>
+    <link rel="stylesheet" href="styletest.css">
+</head>
+<body>
+<header></header>
+<nav></nav>
+<section>
+    <input type="button" value="弹出" onclick="showDialog()">
+    <dialog id="mydialog">用户名:<input type="search"name="txtname"><input type="submit"><input type="month"></dialog>
+    
+    <input type="image" src="images\hand.png" value="图片按钮">
+    <article>第一课安装软件,新建文件,浏览效果,打开浏览器按f12,看手机效果,适应移动端添加viewport属性.</article>
+    <p>不允许定义结束标签的元素11页</p><input type="checkbox"checked>
+</section>
+<div>图片</div>
+<details>
+    <summary>课程</summary>
+    <article>第一课安装软件,新建文件,浏览效果,打开浏览器按f12,看手机效果,适应移动端添加viewport属性.</article>
+    <article>第一课安装软件,新建文件,浏览效果,打开浏览器按f12,看手机效果,适应移动端添加viewport属性.</article>
+    <article>第一课安装软件,新建文件,浏览效果,打开浏览器按f12,看手机效果,适应移动端添加viewport属性.</article>
+</details>
+<footer></footer>
+
+
+</body>
+</html>
+<script>
+    function showDialog() {var dialog=document.getElementById("mydialog")
+dialog.show()
+    }
+</script>
